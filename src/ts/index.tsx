@@ -1,22 +1,27 @@
 import React from 'react';
-import about from './about'
+import Hero from '../Hero';
 import projects from './projectData'
+import About from '../About';
 
 const RenderProject = ():any => {
-    const proj:any = Object.entries(projects).map((val) => console.log(val))
-    return (
-        <div className='project'>
-            {proj}
-        </div>
-    )
+    const proj:any = projects.map((project) => {
+        const {name, website, description} = project
+        return (
+            <div className='project'>
+                <h2 className='project--title'>{name}</h2>
+                <p className='project--website'><a href={website}>{website}</a></p>
+                <p className='project--description'>{description}</p>
+            </div>
+        )
+    })
+    return proj
 }
 
 const Render = ():any => {
-    const info:any = Object.entries(about).map(([key, val])=> (<p>{key.toLocaleUpperCase()} : {val}</p>))
     return (
         <div className='TypeScript'>
-            <h1>Let's Learn TypeScript!</h1>
-            {info}
+            <Hero />
+            <About />
             <div className='projects'>
                 <RenderProject />
             </div>
