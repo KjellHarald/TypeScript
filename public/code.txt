@@ -1,3 +1,0 @@
-```js
-Object.entries(personInfo).map(([key, val])=> console.log(key, val))
-```
