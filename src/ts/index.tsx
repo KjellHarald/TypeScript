@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from '../Hero';
 import projects from './projectData'
 import About from '../About';
+import HtmlBarCreator from './prog/bar'
 
 const RenderProject = ():any => {
     const proj:any = projects.map((project) => {
@@ -18,6 +19,7 @@ const RenderProject = ():any => {
 }
 
 const Render = ():any => {
+    HtmlBarCreator()
     return (
         <div className='TypeScript'>
             <Hero />

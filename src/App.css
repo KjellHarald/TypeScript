@@ -6,6 +6,7 @@ body {
   background-color:#151515;
   color:#f2f2f2;
   font-family: monospace;
+  width:100%;
 }
 /*Hero*/
 .hero {
@@ -42,6 +43,13 @@ body {
   margin:3em auto;
 }
 
+/*projects*/
+.projects {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .project {
   width:500px;
   border:1px solid #2e2e2e;
@@ -71,4 +79,18 @@ body {
 }
 .about p {
   padding:0.8em 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .project, .about {
+    width:90%;
+  }
+  .projects {
+    flex-wrap:nowrap;
+    width:90%;
+    height:auto;
+  }
+  #one, #two, #three {
+    width:100%;
+  }
 }

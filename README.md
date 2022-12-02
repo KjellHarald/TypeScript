@@ -1,3 +1,3 @@
 # TypeScript Adventures!
 
-It has begun! XD
+It has begun, MWHAHAHAHA!
