@@ -1,19 +1,12 @@
 import React from 'react';
-
-const personInfo: {
-    name: string, 
-    age: number
-    } = {
-    name: "Kjell Harald",
-    age: 31
-}
-
+import about from './about'
 
 const Render = ():any => {
+    const info:any = Object.entries(about).map(([key, val])=> (<p>{key.toLocaleUpperCase()} : {val}</p>))
     return (
         <div className='TypeScript'>
-            <p>Let's Learn TypeScript.tsx</p>
-            {Object.entries(personInfo).map(([key, val])=> (<p>{key} : {val}</p>))}
+            <h1>Let's Learn TypeScript!</h1>
+            {info}
         </div>
     )
 }

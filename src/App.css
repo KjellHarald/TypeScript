@@ -1,6 +1,8 @@
 .TypeScript {
+  font-size: 1rem;
   display:flex;
   flex-direction: column;
   justify-content:center;
   align-items:center;
+  border:1px solid #2e2e2e;
 }
