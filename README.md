@@ -1,3 +1,3 @@
 # TypeScript Adventures!
 
-It has begun, MWHAHAHAHA!
+Rewriting my portfolio from basic React to TypeScript, **Educational reasons**.

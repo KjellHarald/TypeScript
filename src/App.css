@@ -57,7 +57,7 @@ body {
   padding:12px;
   font-family: monospace;
   display:flex;
-  flex-direction: column;
+  justify-content: flex-start;
   border:1px solid #E95420;
   background-color: #1c1c1c;
 }
@@ -93,4 +93,20 @@ body {
   #one, #two, #three {
     width:100%;
   }
+}
+
+.barplot {
+  border: 2px inset #E95420;
+  background-color: #000;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  z-index:100;
+  margin:10px;
+}
+.barplot > div {
+  display:inline-block;
+  border:2px outset #2e2e2e;
+  width:20px;
 }

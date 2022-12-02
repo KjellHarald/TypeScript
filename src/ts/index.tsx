@@ -6,12 +6,15 @@ import HtmlBarCreator from './prog/bar'
 
 const RenderProject = ():any => {
     const proj:any = projects.map((project) => {
-        const {name, website, description} = project
+        const {name, website, description, languages} = project
         return (
             <div className='project'>
-                <h2 className='project--title'>{name}</h2>
-                <p className='project--website'><a href={website}>{website}</a></p>
-                <p className='project--description'>{description}</p>
+                {HtmlBarCreator(languages)}
+                <div className='project-info'>
+                    <h2 className='project--title'>{name}</h2>
+                    <p className='project--website'><a href={website}>{website}</a></p>
+                    <p className='project--description'>{description}</p>
+                </div>
             </div>
         )
     })
@@ -19,7 +22,7 @@ const RenderProject = ():any => {
 }
 
 const Render = ():any => {
-    HtmlBarCreator()
+    
     return (
         <div className='TypeScript'>
             <Hero />
