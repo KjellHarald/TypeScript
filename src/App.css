@@ -104,9 +104,10 @@ body {
   justify-content: flex-start;
   z-index:100;
   margin:10px;
+  margin-right:20px;
 }
 .barplot > div {
   display:inline-block;
-  border:2px outset #2e2e2e;
+  border:0 2px 2px 0 solid #2e2e2e;
   width:20px;
 }

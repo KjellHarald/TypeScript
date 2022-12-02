@@ -12,8 +12,7 @@ const HtmlBarCreator = (objArr:any) => {
             height:`${percentage}%`,
             width:"20px",
             left: `${defaultMargin + (margin * i)}px`,
-            backgroundColor: `${color}`
-
+            backgroundColor: `${color}`,
         }
         width = margin * (i+1)
         return (<div id={name} style={styles} title={name}></div>)

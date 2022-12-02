@@ -8,6 +8,21 @@ const projects = [
                 name: "Python",
                 percentage: 100,
                 color: "#3572A5"
+            },
+            {
+                name: "ph",
+                percentage: 0,
+                color: "#000"
+            },
+            {
+                name: "ph",
+                percentage: 0,
+                color: "#000"
+            },
+            {
+                name: "ph",
+                percentage: 0,
+                color: "#000"
             }
         ]
     },
@@ -15,7 +30,28 @@ const projects = [
         name: "KDH",
         website: "empty string",
         description: "empty string",
-        languages: []
+        languages: [
+            {
+                name: "ph",
+                percentage: 0,
+                color: "#000"
+            },
+            {
+                name: "ph",
+                percentage: 0,
+                color: "#000"
+            },
+            {
+                name: "ph",
+                percentage: 0,
+                color: "#000"
+            },
+            {
+                name: "ph",
+                percentage: 0,
+                color: "#000"
+            }
+        ]
     },
     {
         name: "Portfolio",
@@ -25,7 +61,7 @@ const projects = [
             {
                 name: "TypeScript",
                 percentage: 53, 
-                color: "cyan"
+                color: "#3178c6"
             },
             {
                 name: "JavaScript",
