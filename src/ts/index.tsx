@@ -12,6 +12,7 @@ const personInfo: {
 const Render = ():any => {
     return (
         <div className='TypeScript'>
+            <p>Let's Learn TypeScript.tsx</p>
             {Object.entries(personInfo).map(([key, val])=> (<p>{key} : {val}</p>))}
         </div>
     )
