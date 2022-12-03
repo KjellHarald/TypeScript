@@ -22,7 +22,6 @@ const RenderProject = ():any => {
 }
 
 const Render = ():any => {
-    
     return (
         <div className='TypeScript'>
             <Hero />

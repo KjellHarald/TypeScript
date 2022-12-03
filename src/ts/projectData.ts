@@ -32,24 +32,24 @@ const projects = [
         description: "empty string",
         languages: [
             {
-                name: "ph",
-                percentage: 0,
-                color: "#000"
+                name: "PHP",
+                percentage: 60,
+                color: "cyan"
             },
             {
-                name: "ph",
-                percentage: 0,
-                color: "#000"
+                name: "Python",
+                percentage: 2,
+                color: "#3572A5"
             },
             {
-                name: "ph",
-                percentage: 0,
-                color: "#000"
+                name: "HTML",
+                percentage: 20,
+                color: "red"
             },
             {
-                name: "ph",
-                percentage: 0,
-                color: "#000"
+                name: "CSS",
+                percentage: 18,
+                color: "blue"
             }
         ]
     },
