@@ -60,22 +60,22 @@ const projects = [
         languages: [
             {
                 name: "TypeScript",
-                percentage: 53, 
+                percentage: 58, 
                 color: "#3178c6"
             },
             {
                 name: "JavaScript",
-                percentage: 13, 
+                percentage: 10, 
                 color: "yellow"
             },
             {
                 name: "HTML",
-                percentage: 9, 
+                percentage: 8, 
                 color: "red"
             },
             {
                 name: "CSS",
-                percentage: 23, 
+                percentage: 22, 
                 color: "blue"
             }
         ]

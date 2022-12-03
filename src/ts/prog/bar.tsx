@@ -15,7 +15,9 @@ const HtmlBarCreator = (objArr:any) => {
             backgroundColor: `${color}`,
         }
         width = margin * (i+1)
-        return (<div id={name} style={styles} title={name}></div>)
+        return (<div className='graph' id={name} style={styles} title={name}>
+            <div className='bar--name'>{name}: {percentage}%</div>
+        </div>)
     })
 
     const bar = {

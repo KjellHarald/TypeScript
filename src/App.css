@@ -81,6 +81,11 @@ body {
   padding:0.8em 0;
 }
 
+/*custom*/
+.underline {
+  border-bottom:3px solid #E95420;
+}
+
 @media only screen and (max-width: 1000px) {
   .project, .about {
     width:90%;
@@ -96,13 +101,13 @@ body {
 }
 
 .barplot {
-  border: 2px inset #E95420;
+  border: 4px inset #E95420;
   background-color: #000;
   height: 100px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  z-index:100;
+  z-index:1;
   margin:10px;
   margin-right:20px;
 }
@@ -110,4 +115,17 @@ body {
   display:inline-block;
   border:0 2px 2px 0 solid #2e2e2e;
   width:20px;
+}
+.bar--name {
+  display:none;
+  z-index:100;
+} 
+.graph:hover .bar--name {
+  position: absolute;
+  display: block;
+  margin-top:30px;
+  background-color: #000;
+  opacity:0.9;
+  padding:5px;
+  z-index:10;
 }
