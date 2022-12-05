@@ -2,7 +2,7 @@ import React from 'react';
 import about from '../ts/about';
 
 const Hero = ():any => {
-    const {name, age} = about
+    const [name, age] = about
     return (
       <div className="hero">
         <h1><span className="underline">{name}</span></h1>

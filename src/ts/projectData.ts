@@ -27,28 +27,28 @@ const projects = [
         ]
     },
     {
-        name: "KDH",
-        website: "empty string",
-        description: "empty string",
+        name: "Kids Do HPC",
+        website: "https://kidsdohpc.org/",
+        description: "A complete \"datacenter\" containing, Database, Dashboard, APIs, Login/Registration, cross-system communications and security software.",
         languages: [
             {
                 name: "PHP",
-                percentage: 60,
+                percentage: 25,
                 color: "cyan"
             },
             {
                 name: "Python",
-                percentage: 2,
+                percentage: 58,
                 color: "#3572A5"
             },
             {
                 name: "HTML",
-                percentage: 20,
+                percentage: 13,
                 color: "red"
             },
             {
                 name: "CSS",
-                percentage: 18,
+                percentage: 3,
                 color: "blue"
             }
         ]
@@ -56,7 +56,7 @@ const projects = [
     {
         name: "Portfolio",
         website: "This site!",
-        description: "empty string",
+        description: "Learning TypeScript",
         languages: [
             {
                 name: "TypeScript",
