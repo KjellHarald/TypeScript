@@ -1,24 +1,31 @@
-const languages = [
+const languages: {name:string, experience:number}[] = [
     {
-        name: "TypeScript"
+        name: "TypeScript",
+        experience: 0
     },
     {
-        name: "Python"
+        name: "Python",
+        experience: 0
     },
     {
-        name: "JavaScript"
+        name: "JavaScript",
+        experience: 0
     },
     {
-        name: "PHP"
+        name: "PHP",
+        experience: 0
     },
     {
-        name: "R"
+        name: "R",
+        experience: 0
     },
     {
-        name: "HTML"
+        name: "HTML",
+        experience: 0
     },
     {
-        name: "CSS"
+        name: "CSS",
+        experience: 0
     }
 ]
 

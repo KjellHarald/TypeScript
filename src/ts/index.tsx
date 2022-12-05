@@ -1,7 +1,7 @@
-import React from 'react';
-import Hero from '../Hero';
+import React from 'react'
+import Hero from '../Hero'
 import projects from './projectData'
-import About from '../About';
+import About from '../About'
 import HtmlBarCreator from './prog/bar'
 import MadeIn from '../MadeIn'
 
@@ -24,14 +24,14 @@ const RenderProject = ():any => {
 
 const Render = ():any => {
     return (
-        <div className='TypeScript'>
+        <>
             <Hero />
             <About />
             <div className='projects'>
                 <RenderProject />
             </div>
             <MadeIn />
-        </div>
+        </>
     )
 }
 

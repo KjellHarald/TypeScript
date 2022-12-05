@@ -1,4 +1,9 @@
-const projects = [
+const projects: {
+    name:string,
+    website:string,
+    description:string,
+    languages: {name:string, percentage:number, color:string}[]
+}[] = [
     {
         name: "VersaDB",
         website: "https://versa-db.com/",
@@ -55,7 +60,7 @@ const projects = [
     },
     {
         name: "Portfolio",
-        website: "This site!",
+        website: "https://github.com/KjellHarald/TypeScript-Portfolio",
         description: "Learning TypeScript",
         languages: [
             {
