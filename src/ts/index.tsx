@@ -16,7 +16,7 @@ const RenderProject = ():JSX.Element => {
                 {HtmlBarCreator(languages)}
                 <div className='project-info'>
                     <h2 className='project--title'>{name}</h2>
-                    <p className='project--website'><a href={website}>{website}</a></p>
+                    <p className='project--website'><a href={website} target="_blank" rel="noreferrer">{website}</a></p>
                     <p className='project--description'>{description}</p>
                 </div>
             </div>
