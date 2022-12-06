@@ -1,5 +1,6 @@
 import React from 'react'
 import Hero from '../Hero'
+import Nav from '../Nav'
 import projects from './projectData'
 import About from '../About'
 import HtmlBarCreator from './prog/bar'
@@ -27,9 +28,10 @@ const Render = ():JSX.Element => {
     return (
         <>
             <Hero />
+            <Nav />
             <About />
             <Skills />
-            <div className='projects'>
+            <div className='projects' id="projects">
                 <RenderProject />
             </div>
             <MadeIn />

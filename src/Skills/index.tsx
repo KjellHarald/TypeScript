@@ -16,7 +16,7 @@ const Skills = ():JSX.Element => {
         )
     })
     return (
-        <div className='mySkills'>
+        <div className='mySkills' id="skills">
             <h2>Skills</h2>
             <p>Self evaluated "skill" level of diffirent languages.</p>
             {skills}
