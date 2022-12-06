@@ -6,6 +6,7 @@ import About from '../About'
 import HtmlBarCreator from './prog/bar'
 import Skills from '../Skills'
 import MadeIn from '../MadeIn'
+import Email from './prog/email'
 
 const RenderProject = ():JSX.Element => {
     const proj:any = projects.map((project) => {
@@ -34,6 +35,7 @@ const Render = ():JSX.Element => {
             <div className='projects' id="projects">
                 <RenderProject />
             </div>
+            <Email />
             <MadeIn />
         </>
     )

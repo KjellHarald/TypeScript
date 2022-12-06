@@ -67,7 +67,7 @@ nav > a {
 .projects {
   display:block;
   width:90%;
-  clear:both;
+  overflow:hidden;
 }
 .project {
   float:left;
@@ -187,4 +187,28 @@ nav > a {
   border-top:1px solid #fff;
   height:10px;
   font-size:8px;
+}
+
+/*Contact*/
+.contact {
+  width:50%;
+  margin:10% auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact button {
+  background-color: #00b140;
+  color:#fff;
+}
+.contact textarea {
+  resize: none;
+  height:150px;
+}
+.contact input, textarea, button {
+  border-radius: 5px;
+  border:none;
+  padding:8px;
+  margin:5px auto;
+  width:100%;
 }
