@@ -1,5 +1,5 @@
 # TypeScript Adventures!
-This is a **Love** / **Hate** relationship, the slace is balanced...
+This is a **Love** / **Hate** relationship, the scale is balanced...
 
 https://khps.no/
 
