@@ -1,31 +1,38 @@
-const languages: {name:string, experience:number}[] = [
+const languages: {name:string, experience:number, color:string}[] = [
     {
         name: "TypeScript",
-        experience: 0
+        experience: 30,
+        color: "#3178c6"
     },
     {
         name: "Python",
-        experience: 0
+        experience: 80,
+        color: "#3572A5"
     },
     {
         name: "JavaScript",
-        experience: 0
+        experience: 70,
+        color: "#f1e05a"
     },
     {
         name: "PHP",
-        experience: 0
+        experience: 90,
+        color: "#4F5D95"
     },
     {
         name: "R",
-        experience: 0
+        experience: 5,
+        color: "#198CE7"
     },
     {
         name: "HTML",
-        experience: 0
+        experience: 95,
+        color: "#e34c26"
     },
     {
         name: "CSS",
-        experience: 0
+        experience: 70,
+        color: "#563d7c"
     }
 ]
 

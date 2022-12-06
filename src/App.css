@@ -135,3 +135,28 @@ body {
   padding:5px;
   z-index:10;
 }
+
+/*skills*/
+.mySkills {
+  width:70%;
+  margin:0 auto;
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+  
+}
+.language-name {
+  font-size: 16px;
+}
+.mySkills p {
+  margin:5px 0;
+  margin-left:5px;
+}
+.mySkills > div {
+  border:1px solid #E95420;
+}
+.experience {
+  border-top:1px solid #fff;
+  height:10px;
+  font-size:8px;
+}

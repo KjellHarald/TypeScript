@@ -3,6 +3,7 @@ import Hero from '../Hero'
 import projects from './projectData'
 import About from '../About'
 import HtmlBarCreator from './prog/bar'
+import Skills from '../Skills'
 import MadeIn from '../MadeIn'
 
 const RenderProject = ():any => {
@@ -27,6 +28,7 @@ const Render = ():any => {
         <>
             <Hero />
             <About />
+            <Skills />
             <div className='projects'>
                 <RenderProject />
             </div>
