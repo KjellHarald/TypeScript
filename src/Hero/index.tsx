@@ -1,7 +1,7 @@
 import React from 'react';
 import about from '../ts/about';
 
-const Hero = ():any => {
+const Hero = ():JSX.Element => {
     const [name, age] = about
     return (
       <div className="hero">

@@ -1,7 +1,7 @@
 import React from 'react'
 import languages from '../ts/languages'
 
-const Skills = ():any => {
+const Skills = ():JSX.Element => {
     const skills:JSX.Element[] = languages.map(lang => {
         const {name, experience, color} = lang
         const styling:any = {

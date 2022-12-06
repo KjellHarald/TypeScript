@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react'
 
-const CodeFrequency = ():any => {
+const CodeFrequency = ():any[] => {
     const [codebase, initCode] = useState([])
     const codefreq = async () => {
         const response = await fetch("https://api.github.com/repos/KjellHarald/kjellharald.github.io/languages", {

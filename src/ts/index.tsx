@@ -6,7 +6,7 @@ import HtmlBarCreator from './prog/bar'
 import Skills from '../Skills'
 import MadeIn from '../MadeIn'
 
-const RenderProject = ():any => {
+const RenderProject = ():JSX.Element => {
     const proj:any = projects.map((project) => {
         const {name, website, description, languages} = project
         return (
@@ -23,7 +23,7 @@ const RenderProject = ():any => {
     return proj
 }
 
-const Render = ():any => {
+const Render = ():JSX.Element => {
     return (
         <>
             <Hero />

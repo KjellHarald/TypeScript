@@ -1,6 +1,6 @@
 import React from 'react';
 // HTML Bar Graph Creator
-const HtmlBarCreator = (objArr:any) => {
+const HtmlBarCreator = (objArr:any[]):JSX.Element => {
     // Do dah mathy stoof
     const defaultMargin: number = 0
     const margin: number = 20
