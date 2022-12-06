@@ -45,16 +45,17 @@ body {
 
 /*projects*/
 .projects {
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display:block;
+  width:90%;
+  clear:both;
 }
 .project {
-  width:500px;
+  float:left;
+  width:45%;
   border:1px solid #2e2e2e;
   margin:10px;
   padding:12px;
+  height:200px;
   font-family: monospace;
   display:flex;
   justify-content: flex-start;
@@ -102,6 +103,8 @@ body {
 
 
 .madein-notice {
+  display:block;
+  clear:both;
   text-align: center;
   font-size: 1.2rem;
   padding:1em;
