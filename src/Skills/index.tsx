@@ -4,10 +4,14 @@ import languages from '../ts/languages'
 const Skills = ():any => {
     const skills:JSX.Element[] = languages.map(lang => {
         const {name, experience, color} = lang
+        const styling:any = {
+            width: `${experience}%`,
+            backgroundColor: color
+        }
         return (
             <div className={name}>
                 <p className='language-name'>{name} / {experience}%</p>
-                <div className='experience' style={{width: `${experience}%`, backgroundColor: color}}></div>
+                <div className='experience' style={styling}></div>
             </div>
         )
     })
