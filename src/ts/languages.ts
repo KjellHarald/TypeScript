@@ -1,7 +1,7 @@
 const languages: {name:string, experience:number, color:string}[] = [
     {
         name: "TypeScript",
-        experience: 30,
+        experience: 40,
         color: "#3178c6"
     },
     {

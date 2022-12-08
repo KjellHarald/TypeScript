@@ -3,9 +3,9 @@ import React from 'react'
 const Nav = ():JSX.Element => {
     return (
         <nav>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <span className='underline'><a href="#skills">Skills</a></span>
+            <span className='underline'><a href="#projects">Projects</a></span>
+            <span className='underline'><a href="#contact">Contact</a></span>
         </nav>
     )
 }
