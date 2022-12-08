@@ -1,14 +1,14 @@
 import React, {useState} from 'react'
-//import connectVersa from '../../srv/vdb'
 
 const Email = ():JSX.Element => {
-    const [formInfo, setFormInfo] = useState({name:"", email: "", msg: ""})
+    const [formInfo, setFormInfo] = useState({name: "", email: "", msg: ""})
     const [emailResponse, setEmailResponse] = useState("")
     
     const updateForm = (event:any):any => {
+        const {name, value} = event.target
         setFormInfo({
             ...formInfo,
-            [event.target.name]: event.target.value
+            [name]: value
         })
     }
 
@@ -24,7 +24,7 @@ const Email = ():JSX.Element => {
     }
 
     return (
-        <div className='contact'>
+        <div className='contact' id="contact">
             <h2>Contact</h2>
             <input onChange={(event)=>updateForm(event)} name="name" value={formInfo.name} placeholder='Your name'/>
             <input onChange={(event)=>updateForm(event)} name="email" value={formInfo.email} placeholder='Email'/>
